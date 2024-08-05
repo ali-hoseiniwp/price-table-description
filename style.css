@@ -12,7 +12,7 @@ body {
         justify-content: center;
         align-items: center;
 }
-
+/* ------- start main ------------------- */
 main{
     width: 100%;
     background-color: hsl(204, 43%, 93%);
@@ -22,11 +22,9 @@ main{
     padding: auto 30px !important;
 }
 
+/* --------------- start section ------------------- */
 section  {
-    /* max-width: 500px; */
     padding: 0 !important;
-    display: flex;
-    flex-direction: column;
     margin: 60px 30px !important;
     border-radius: 6px;
     overflow: hidden;
@@ -37,6 +35,7 @@ section p {
     font-size: 0.85em;
 }
 
+/* ---------------- start top ------------------- */
 .top{
     background-color: #fff;
     width: 100%;
@@ -61,7 +60,9 @@ section p {
     font-size: 0.9em;
     color: #AFB2BB;
 }
+/* ------------------ end top ------------------- */
 
+/* ------------------ start bottom ------------------- */
 .bottom{
     display: flex;
     flex-direction: column;
@@ -81,6 +82,8 @@ section p {
 .sign_up:hover{
     background-color: rgb(24, 212, 87);
 }
+
+/* ------------------ start left ------------------- */
 .left{
     background-color: hsl(179, 62%, 43%);
     padding: 30px 25px;
@@ -105,6 +108,8 @@ section p {
 .bottom_sign{
     text-align: center;
 }
+
+/* ------------------ start right ------------------- */
 .right{
     background-color: #4ABEBD;
     padding: 25px;
@@ -126,7 +131,8 @@ section p {
 .right>ul>li{
     list-style: none;
 }
-
+/* ------------------ end bottom ------------------- */
+/* __________________ end section ________________ */
 
 @media screen and (min-width:475px){
 
