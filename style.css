@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+
+
+body {
+        font-family: "Karla", sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #E6EFF6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+main{
+    width: 100%;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 30px !important;
+}
+
+section  {
+    /* max-width: 500px; */
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 30px !important;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section p {
+    font-size: 0.85em;
+}
+
+.top{
+    background-color: #fff;
+    width: 100%;
+    padding: 25px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;    
+}
+
+.top h3{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+
+.top h4{
+    color: #DCE65B;
+    font-size: 0.95em;
+    font-weight: 700;
+}
+
+.top p {
+    font-size: 0.9em;
+    color: #AFB2BB;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    color: hsl(204, 43%, 93%);
+}
+
+.sign_up{
+    background-color: hsl(71, 73%, 54%);
+    display: inline-block;
+    font-size: 1em;
+    height: 45px;
+    border: none;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.sign_up:hover{
+    background-color: rgb(24, 212, 87);
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px 25px;
+}
+
+.left h4{
+    color: #fff;
+}
+
+.price{
+    font-size: 25px;
+    color: #fff;
+}
+
+.price span{
+    font-size: 14px;
+    color: #77DEE3;
+}
+.price_desc{
+    padding-bottom: 20px;
+}
+.bottom_sign{
+    text-align: center;
+}
+.right{
+    background-color: #4ABEBD;
+    padding: 25px;
+    border-radius:0 0 6px 6px;
+    overflow: hidden;
+    color: #A3F4F5;
+}
+
+.right h4{
+    font-weight: 600;
+    color: #fff;
+}
+
+.right>ul{
+    margin: 0;
+    padding: 0;
+}
+
+.right>ul>li{
+    list-style: none;
+}
+
+
+@media screen and (min-width:475px){
+
+    main{
+        height: 100vh;
+    }
+
+    .top{
+        padding: 25px 30px;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+
+    .left{
+        border-radius: 0 0 0 6px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+    .right{
+        border-radius: 0 0 6px 0;
+        width: 50%;
+        padding: 30px;
+    }
+}
